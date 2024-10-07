@@ -15,4 +15,4 @@ const greenEyeSchema = new Schema({
 const GreenEye = mongoose.model("greenEye", greenEyeSchema);
 
 
-module.exports = greenEye;
+module.exports = GreenEye;
