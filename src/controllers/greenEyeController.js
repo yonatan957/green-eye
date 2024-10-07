@@ -1,6 +1,6 @@
 const createPoll = async (req, res) => {
     try {
-        
+        res.send("you in controller")
     } catch (error) {
         
     }
@@ -8,7 +8,7 @@ const createPoll = async (req, res) => {
 
 const getNOtifications = async (req, res) => {
     try {
-        
+        res.send("you in controller")
     } catch (error) {
         
     }
@@ -16,7 +16,7 @@ const getNOtifications = async (req, res) => {
 
 const getPollById = async (req, res) => {
     try {
-        
+        res.send("you in controller")
     } catch (error) {
         
     }
@@ -24,7 +24,7 @@ const getPollById = async (req, res) => {
 
 const reply = async (req, res) => {
     try {
-        
+        res.send("you in controller")
     } catch (error) {
         
     }
@@ -32,7 +32,7 @@ const reply = async (req, res) => {
 
 const deletePoll = async (req, res) => {
     try {
-        
+        res.send("you in controller")
     } catch (error) {
         
     }
