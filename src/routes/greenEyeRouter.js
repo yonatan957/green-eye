@@ -8,6 +8,10 @@ router.get('/my', (req, res) => {
 
 })
 
+router.get('/:id', (req, res) => {
+    
+})
+
 router.post('/:reply', (req, res) => {
     
 })
