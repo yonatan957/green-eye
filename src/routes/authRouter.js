@@ -1,10 +1,7 @@
 const expreess = require("express");
+const { login, logout } = require("../controllers/authController");
 const router = expreess.Router();
 
-router.post("/login", (req, res) => {
-    
-})
-router.post("/logout", (req, res) => {
-    
-})
+router.post("/login", login)
+router.post("/logout", logout)
 module.exports = router;
