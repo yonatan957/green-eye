@@ -14,4 +14,4 @@ const logout = async (req, res) => {
     }
 }
 
-module.export = {login, logout}
+module.exports = {login, logout}

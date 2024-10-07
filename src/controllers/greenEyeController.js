@@ -38,4 +38,4 @@ const deletePoll = async (req, res) => {
     }
 }
 
-module.export = {createPoll, getNOtifications, getPollById, reply, deletePoll}
+module.exports = {createPoll, getNOtifications, getPollById, reply, deletePoll}

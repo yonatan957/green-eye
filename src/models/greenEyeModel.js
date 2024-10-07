@@ -12,7 +12,7 @@ const greenEyeSchema = new Schema({
     replies:{type:[mongoose.Schema.Types.ObjectId], ref:"user"},
     popllation:{type:populationSchema}
 })
-const GreenEye = mongoose.model("greenEye", greenEyeSchema);
+const GreenEye = mongoose.model("green_eye", greenEyeSchema);
 
 
 module.exports = GreenEye;
