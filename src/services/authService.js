@@ -13,6 +13,7 @@ const login = async (user) => {
         const token = jwt.sign({user_name: dbUser.user_name, role:dbUser.role}, process.env.JWT_SECRET, {expiresIn:"3m"}); 
         return token
     } catch (error) {
+        console.log(error)
         throw error
     }
 }
